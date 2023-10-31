@@ -1,5 +1,10 @@
 package com.scaler.EcomProductService.dto;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class ProductRequestDTO {
     private int id;
     private String title;
