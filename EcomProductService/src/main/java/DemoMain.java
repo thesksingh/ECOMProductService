@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
+import java.util.*;
 
 public class DemoMain {
     public static void main(String[] args) {
@@ -18,5 +15,8 @@ public class DemoMain {
         booleans.add(true);
         booleans.add(false);
         System.out.println(booleans.getClass().getName());
+
+        UUID uuid = UUID.randomUUID();
+        System.out.println(uuid);
     }
 }
